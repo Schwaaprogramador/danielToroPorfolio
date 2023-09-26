@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+/***********************\
+*
+*   RESET CSS
+*
+\***********************/
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #000000; 
+    font-family: 'Poppins', sans-serif;
+}
+
+/***********************\
+*
+*   STYLE OF LIST
+*
+\***********************/
+
+.ul {
+    position: relative;
+}
+.ul .li {
+    position: relative;
+    list-style: none;
+    word-spacing: 10px;
+}
+.ul .li .a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.051);
+}
+
+/***********************\
+*
+*   IMPORTANT!
+*
+\***********************/
+
+.ul .li .a:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #b80E65;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-repeat: repeat-x;
+    animation: wave 2s linear infinite;
+    transition: .8s;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ul .li .a:hover:before {
+    width: 100%;
+}
+
+/***********************\
+*
+*   ANIMATION SIMPLES
+*
+\***********************/
+
+@keyframes wave {
+    0% {
+        background-position: 0px;
+    }
+    100% {
+        background-position: 100px;
+    }
+}

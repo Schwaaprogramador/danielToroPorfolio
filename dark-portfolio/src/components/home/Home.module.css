@@ -1,0 +1,22 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image {
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-image: url('../../assets/MietWZ7qbDpJLrDid8vE--1--y9v9u.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    background-color: aliceblue;
+}
