@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Hairline&family=Dela+Gothic+One&family=Hind+Madurai:wght@700&display=swap');
+/*font-family: 'Archivo Black', sans-serif;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Hind Madurai', sans-serif;*/
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Bungee Hairline', cursive; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}   
+
+.nombre {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(255, 251, 16); 
+    font-size: 200px;
+}
+
+.tech {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid; /* Esta en la barrita de la derecha*/
+    width: 23ch; /*Numero de caracteres*/
+    animation: typing 2s steps(23), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+
+
+@keyframes typing {
+    from { width: 0px; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
+    
+}
+.button {
+    text-decoration: none;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 251, 16);
+    font-family: 'Archivo Black', sans-serif;
+}
+.button:hover {
+    cursor: pointer;
+    color: rgb(255, 251, 16);
+}
+
+/* ----------------COLORES--------------
+    #1c1b4d rgb(255, 251, 16); 
+    #b80E65
+    #1791b1
+*/
+/*------------------TIPOGRAFIAS----------
+  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Hind Madurai', sans-serif;
+*/
