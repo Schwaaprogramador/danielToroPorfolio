@@ -31,7 +31,7 @@ font-family: 'Hind Madurai', sans-serif;*/
     display: block;
     white-space: nowrap;
     border-right: 2px solid; /* Esta en la barrita de la derecha*/
-    width: 23ch; /*Numero de caracteres*/
+    width: 21ch; /*Numero de caracteres*/
     animation: typing 2s steps(23), blink .5s infinite step-end alternate;
     overflow:hidden;
 }

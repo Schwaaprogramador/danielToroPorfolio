@@ -6,7 +6,7 @@ const Inicio = () => {
   return (
     <div className={styled.container}>
 
-            <motion.div initial={{ opacity: 0 }} animate={{  opacity: 1}} transition={{ duration: 6}}>
+            <motion.div initial={{ opacity: 0 }} animate={{  opacity: 1}} transition={{ duration: 5}}>
 
                 <p className={styled.nombre}>DANIEL TORO</p>
 
@@ -19,7 +19,7 @@ const Inicio = () => {
                         initial={{ opacity: 0 }}
                         whileHover={{ scale: 1.2,}} >                        
 
-                  <Link to='./home' className={styled.button}>ENTRAR</Link>
+                  <Link to='/home/about' className={styled.button}>ENTRAR</Link>
 
             </motion.div>
             

@@ -4,35 +4,59 @@
 
 
 .body {
-    padding: 20px;
-
-    position: fixed;
-    display: flex;
+    
+    height: 100vh;
+    margin-left: 2vw;       
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: fixed;    
     left: 0px;
-
+    z-index: 12;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
 
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 50px;
-    height: 100vh;
-    color: rgba(150, 150, 150, 0.822); 
+    background-color: black;
     
 }
 
 .Link {
     text-decoration:none;   
+    color: aliceblue;
+    margin: 0px;
+}
+
+.p {
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Hairline';
+    font-weight: bold;
+    font-size: xx-large; 
+}
+.p:hover {
+    color: rgb(255, 251, 16);
+    border-bottom: 1px solid rgb(255, 251, 16);
 }
 
 .image {
-    padding: 10px;
-    height: 500px;
-    width: 500px;
-    background-image: url('../../assets/MietWZ7qbDpJLrDid8vE--1--y9v9u.jpg');
+    
+    height: 20rem;
+    width: 20rem;
+    background-image: url('../../assets/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    background-color: aliceblue;
+}
+
+/*---------------------------*/
+.icon {
+    color: rgb(255, 251, 16);
+    font-size: 3rem;
+}
+
+.icons {
+    width:200px;
+    display: flex;
+    justify-content: space-around;
 }
