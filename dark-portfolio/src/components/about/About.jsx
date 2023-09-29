@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (  
     <div>
-            <motion.div   initial={{ y: -2500}} 
+            <motion.div   initial={{ y: -500}} 
                           animate={{ y: 0}} 
                           transition={{ duration: 3}} 
                           >
@@ -18,25 +18,26 @@ const About = () => {
 
                     <p className={styled.p}>¡Saludos!</p>
                     <p className={styled.pt}> Soy un apasionado desarrollador fullstack con un entusiasmo insaciable 
-                      por la programación, el ajedrez y el emocionante mundo del trading.</p>
+                      por la <span className={styled.span}>programación</span>, el <span className={styled.span}>ajedrez </span> 
+                       y el emocionante mundo del <span className={styled.span}>trading</span>.</p>
 
                   </section>
 
 
                   <section className={styled.section2}>
 
-                      <p className={styled.p}>ABOUT ME</p>
+                      <p className={styled.p2}>ABOUT ME</p>
                       <div className={styled.imagenes}>
                         <div className={styled.image}></div>
-                        <div className={styled.image}></div>
-                        <div className={styled.image}></div>
+                        <div className={styled.image2}></div>
+                        <div className={styled.image3}></div>
                       </div>
 
                       <div>
-                        <p className={styled.pt}> Mi vida se divide entre el teclado y el tablero de ajedrez, y me encanta combinar 
+                        <p className={styled.pt2}> Mi vida se divide entre el teclado y el tablero de ajedrez, y me encanta combinar 
                             la precisión de la programación con la estrategia del ajedrez para resolver problemas 
                             de manera creativa.</p>
-                            <p className={styled.pt}>Además, me sumerjo en el mundo del trading, donde aplico mi 
+                            <p className={styled.pt2}>Además, me sumerjo en el mundo del trading, donde aplico mi 
                                               habilidad para analizar datos y tomar decisiones estratégicas en los mercados
                                               financieros. Esta sección sobre mí es una ventana a mi mundo, donde compartiré 
                                               mis experiencias y conocimientos en estas pasiones que me impulsan todos los días.
@@ -44,7 +45,7 @@ const About = () => {
                       </div>
                   </section>
 
-                  <section className={styled.section2}>
+                  <section className={styled.section3}>
                     <p className={styled.p}>SKILLS</p>
 
                   </section>         
