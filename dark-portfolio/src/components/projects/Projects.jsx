@@ -3,15 +3,22 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className={styled.container}>
-            <motion.div  initial={{ x: 2500}} animate={{ x: 0}} transition={{ duration: 2}} exit={{opacity: 0}}>
-              
-              <p>PRJECTOS</p>
-              <div className={styled.image}></div>
-              
-            </motion.div>
+    
+
       
-    </div>
+              <motion.div   initial={{ x: -500}} 
+                            animate={{ x: 0}}                            
+                            className={styled.container} 
+                            >
+                <div >
+                  <p>PRJECTOS</p>
+                  <div className={styled.image}></div>
+                </div>
+              </motion.div>
+        
+      
+
+    
   )
 }
 

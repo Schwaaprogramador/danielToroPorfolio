@@ -1,12 +1,12 @@
 .container {
     margin: 0px;
-    background-color: rgb(174, 171, 0); 
+    background-color: rgb(255, 251, 16); 
     display: grid;
-    padding: 1rem;
+    padding: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
     width: 100vw;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
 }
 
 .about{

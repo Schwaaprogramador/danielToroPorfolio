@@ -1,12 +1,16 @@
 import styled from './Hire.module.css'
+import { motion } from "framer-motion";
 
 const Hire = () => {
   return (
-    <div className={styled.container}>
+    <motion.div initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}      
+                className={styled.container}
+                whileHover={{backgroundColor:'#ffa500', scale: 1.1,}}>
 
         <button>HIRE ME</button>
         
-    </div>
+    </motion.div>
   )
 }
 

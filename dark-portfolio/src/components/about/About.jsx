@@ -12,9 +12,7 @@ const About = () => {
     <div>
 
       <motion.div   initial={{ y: -500}} 
-                    animate={{ y: 0}} 
-                    transition={{ duration: 3}} 
-                    >
+                    animate={{ y: 0}} >
 
         <div className={styled.container}>
 

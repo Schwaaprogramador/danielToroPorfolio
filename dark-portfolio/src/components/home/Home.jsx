@@ -34,17 +34,17 @@ const Home = () => {
            </div>
 
            <div className={styled.hire}>
-            <Hire/>
+               <Hire/>
            </div>
 
            <div className={styled.tech}>
-            <Tech/>
+               <Tech/>
            </div>
            <div className={styled.studies}>
-            <Studies/>
+               <Studies/>
            </div>
            <div className={styled.other}>
-            <Other/>
+               <Other/>
            </div>
                    
                

@@ -1,8 +1,13 @@
 import styled from './Description.module.css'
+import { motion } from "framer-motion";
 
 const Description = () => {
   return (
-    <div className={styled.container}>
+    <motion.div initial={{ x: 500}} 
+                animate={{ x: 0}}                
+                className={styled.container}
+                whileHover={{scale: 1.1,}}>
+
      <p className={styled.pt}> Soy un apasionado desarrollador fullstack con un entusiasmo insaciable 
                       por la <span className={styled.span}>programación</span>, el <span className={styled.span}>ajedrez </span> 
                        y el emocionante mundo del <span className={styled.span}>trading</span>.</p>
@@ -16,7 +21,7 @@ const Description = () => {
                                               mis experiencias y conocimientos en estas pasiones que me impulsan todos los días.
                                               ¡Únete a mí en este viaje de desarrollo, estrategia y aprendizaje constante!</p>
                       </div>
-    </div>
+    </motion.div>
   )
 }
 
