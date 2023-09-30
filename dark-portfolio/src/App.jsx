@@ -22,14 +22,8 @@ function App() {
             <Route exact path="/home/projects" element={<Projects/>} />
             <Route exact path="/home/contact" element={<Contact/>} />
             
-          </Route>
-          
-          
-          
-          
-            
-         
-        </Routes>      
+          </Route>                       
+          </Routes>      
     </>
   )
 }

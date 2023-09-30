@@ -1,61 +1,46 @@
 
 import styled from './About.module.css';
-
+import img from '../../assets/2.jpg'
 import { motion } from "framer-motion";
+//-------------ICONS-----------------------
+import { SlSocialLinkedin } from 'react-icons/sl';
+import { SlSocialGithub } from 'react-icons/sl';
+
 
 const About = () => {
   return (  
     <div>
-            <motion.div   initial={{ y: -500}} 
-                          animate={{ y: 0}} 
-                          transition={{ duration: 3}} 
-                          >
 
-                <div className={styled.container}>
+      <motion.div   initial={{ y: -500}} 
+                    animate={{ y: 0}} 
+                    transition={{ duration: 3}} 
+                    >
 
-
-                  <section className={styled.section1}>
-
-                    <p className={styled.p}>¡Saludos!</p>
-                    <p className={styled.pt}> Soy un apasionado desarrollador fullstack con un entusiasmo insaciable 
-                      por la <span className={styled.span}>programación</span>, el <span className={styled.span}>ajedrez </span> 
-                       y el emocionante mundo del <span className={styled.span}>trading</span>.</p>
-
-                  </section>
+        <div className={styled.container}>
 
 
-                  <section className={styled.section2}>
+            <img src={img} className={styled.image}/>
 
-                      <p className={styled.p2}>ABOUT ME</p>
-                      <div className={styled.imagenes}>
-                        <div className={styled.image}></div>
-                        <div className={styled.image2}></div>
-                        <div className={styled.image3}></div>
-                      </div>
 
-                      <div>
-                        <p className={styled.pt2}> Mi vida se divide entre el teclado y el tablero de ajedrez, y me encanta combinar 
-                            la precisión de la programación con la estrategia del ajedrez para resolver problemas 
-                            de manera creativa.</p>
-                            <p className={styled.pt2}>Además, me sumerjo en el mundo del trading, donde aplico mi 
-                                              habilidad para analizar datos y tomar decisiones estratégicas en los mercados
-                                              financieros. Esta sección sobre mí es una ventana a mi mundo, donde compartiré 
-                                              mis experiencias y conocimientos en estas pasiones que me impulsan todos los días.
-                                              ¡Únete a mí en este viaje de desarrollo, estrategia y aprendizaje constante!</p>
-                      </div>
-                  </section>
-
-                  <section className={styled.section3}>
-                    <p className={styled.p}>SKILLS</p>
-
-                  </section>         
-                  
-
-                </div>
-              
-              
-            </motion.div>
+            <div className={styled.texto}>
+              <p className={styled.daniel}>DANIEL</p>
+              <p className={styled.toro}>TORO</p>
+              <p> Soy un apasionado desarrollador fullstack </p>
+              <p> Utilizo React para el front-end y Django para el back-end </p>
             </div>
+
+
+            <div className={styled.redes}>
+              <SlSocialGithub className={styled.icon}/>
+              <SlSocialLinkedin className={styled.icon}/>
+            </div>
+
+          </div>
+
+      </motion.div>
+      
+    </div>
+    
     
   )
 }

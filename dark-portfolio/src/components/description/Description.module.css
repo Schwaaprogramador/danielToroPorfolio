@@ -1,0 +1,12 @@
+.container {
+    height: 100%;
+   
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    border-radius: 4rem;
+    
+}

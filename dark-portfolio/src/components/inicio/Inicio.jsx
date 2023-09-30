@@ -19,7 +19,7 @@ const Inicio = () => {
                         initial={{ opacity: 0 }}
                         whileHover={{ scale: 1.2,}} >                        
 
-                  <Link to='/home/about' className={styled.button}>ENTRAR</Link>
+                  <Link to='/home' className={styled.button}>ENTRAR</Link>
 
             </motion.div>
             
