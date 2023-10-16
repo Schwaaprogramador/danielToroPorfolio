@@ -40,9 +40,11 @@ const Home = () => {
            <div className={styled.tech}>
                <Tech/>
            </div>
+
            <div className={styled.studies}>
                <Studies/>
            </div>
+           
            <div className={styled.other}>
                <Other/>
            </div>

@@ -6,7 +6,7 @@ const Hire = () => {
     <motion.div initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}      
                 className={styled.container}
-                whileHover={{backgroundColor:'#ffa500', scale: 1.1,}}>
+                whileHover={{backgroundColor:'transparent', scale: 1.1,}}>
 
         <button>HIRE ME</button>
         

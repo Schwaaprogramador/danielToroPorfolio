@@ -9,22 +9,23 @@ import { SlSocialGithub } from 'react-icons/sl';
 
 const About = () => {
   return (  
-    <div>
+    
 
       <motion.div   initial={{ y: -500}} 
                     animate={{ y: 0}} >
 
         <div className={styled.container}>
 
-
-            <img src={img} className={styled.image}/>
+            <div>
+              <img src={img} className={styled.image}/>
+            </div>
+           
 
 
             <div className={styled.texto}>
               <p className={styled.daniel}>DANIEL</p>
-              <p className={styled.toro}>TORO</p>
-              <p> Soy un apasionado desarrollador fullstack </p>
-              <p> Utilizo React para el front-end y Django para el back-end </p>
+              <p className={styled.toro}>TORO</p>            
+              <p className={styled.p}> Utilizo React para el front-end y Django para el back-end </p>
             </div>
 
 
@@ -37,7 +38,7 @@ const About = () => {
 
       </motion.div>
       
-    </div>
+   
     
     
   )
