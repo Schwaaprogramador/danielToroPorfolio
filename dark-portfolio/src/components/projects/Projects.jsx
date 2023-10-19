@@ -1,3 +1,4 @@
+import Project1 from './Project1';
 import styled from './Projects.module.css'
 import { motion } from "framer-motion";
 
@@ -10,9 +11,30 @@ const Projects = () => {
                             animate={{ x: 0}}                            
                             className={styled.container} 
                             >
-                <div >
-                  <p>PRJECTOS</p>
-                  <div className={styled.image}></div>
+                <div className={styled.carrucel}>
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  
+                  <div className={styled.item}>
+                  <Project1 />
+                  </div><div className={styled.item}>
+                  <Project1 />
+                  </div>
+                  
                 </div>
               </motion.div>
         

@@ -17,35 +17,30 @@ const Home = () => {
   return (
         <div  className={styled.container}>
 
-          <div className={styled.about}>
+          <div className={styled.section}>
               <About />
           </div>
 
-           <div className={styled.project}>
+           <div className={styled.section1}>
               <Projects/>
+              <div className={styled.section1_inside}>
+                <Description/>
+                <Skills/>
+              </div>
+              
            </div>
 
-           <div className={styled.description}>
-              <Description/>
-           </div>
+           
 
-           <div className={styled.skills}>
-            <Skills/>
-           </div>
-
-           <div className={styled.hire}>
+           <div className={styled.section2}>
                <Hire/>
-           </div>
-
-           <div className={styled.tech}>
                <Tech/>
-           </div>
-
-           <div className={styled.studies}>
                <Studies/>
            </div>
+
            
-           <div className={styled.other}>
+           
+           <div className={styled.section3}>
                <Other/>
            </div>
                    

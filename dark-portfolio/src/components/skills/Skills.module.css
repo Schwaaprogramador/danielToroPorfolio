@@ -1,24 +1,14 @@
 .container {
-    height: 100%;
+    width: 20vw;
+    height: 45vh;
     
     color: aliceblue;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
     justify-content: space-around;
-    padding: 3rem;
+    
     border-radius: 4rem;
     
 }
 
-.image {
-    padding: 10px;
-    height: 500px;
-    width: 500px;
-    background-image: url('../../assets/MietWZ7qbDpJLrDid8vE--1--y9v9u.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;
-    background-color: aliceblue;
-}

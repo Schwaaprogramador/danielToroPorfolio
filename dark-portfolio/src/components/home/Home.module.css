@@ -1,49 +1,42 @@
 .container {
-    
+    padding: 1rem 0rem;
     background-color: rgb(255, 251, 16); 
-    display: grid;
-    padding: 10px;
-    grid-template-columns: 32vw 32vw 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     
-    grid-gap: 10px;
+    
+    
 }
 
-.about{
-    grid-column: 1/4;
-    grid-row: 1/2;
+.section {
+    width: 90vw;
+    height: 60vh;
 }
 
-.project {
-    grid-column: 1/3;
-    grid-row: 2/4;
+.section1 {
+    width: 90vw;
+    display: flex;
+    gap: 15px;
 }
 
-.description {
-    grid-column: 3/ span 1;   
-    grid-row: 2/ span 1;
+.section1_inside {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 
-.skills {
-    grid-column: 3/4;
-    grid-row: 3/4;
+.section2 {
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
 }
 
-.hire {
-    grid-column: 2/3;
-    grid-row: 4/5;
-}
-
-.tech {
-    grid-column: 3/4;
-    grid-row: 4/5;
-}
-
-.studies {
-    grid-column: 1/2;
-    grid-row: 4/6;
-}
-
-.other{
-    grid-column: 2/4;
-    grid-row: 5/6;
+.section3 {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
 }
