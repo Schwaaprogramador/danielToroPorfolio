@@ -7,7 +7,7 @@ font-family: 'Hind Madurai', sans-serif;*/
 
 .container {
     height: 100vh;
-    background-color: black;
+    background-color: #0d192b;
     color: aliceblue;
     font-family: 'Bungee Hairline', cursive; 
     display: flex;
@@ -18,8 +18,8 @@ font-family: 'Hind Madurai', sans-serif;*/
 
 .nombre {
     font-family: 'Archivo Black', sans-serif;
-    color: rgb(255, 251, 16); 
-    font-size: 200px;
+    color: #07f9a2;
+    font-size: 180px;
 }
 
 .tech {
@@ -52,12 +52,12 @@ font-family: 'Hind Madurai', sans-serif;*/
     padding: 20px;
     background-color: transparent;
     color: rgb(255, 255, 255);
-    border-color: rgb(255, 251, 16);
+    
     font-family: 'Archivo Black', sans-serif;
 }
 .button:hover {
     cursor: pointer;
-    color: rgb(255, 251, 16);
+    color: #07f9a2
 }
 
 /* ----------------COLORES--------------

@@ -1,6 +1,7 @@
-import Project1 from './Project1';
+import Project from './Project';
 import styled from './Projects.module.css'
 import { motion } from "framer-motion";
+import { proyectos } from './ProjectsData/data';
 
 const Projects = () => {
   return (
@@ -12,28 +13,9 @@ const Projects = () => {
                             className={styled.container} 
                             >
                 <div className={styled.carrucel}>
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div>
+
+                  {proyectos.map( proyecto => <Project className={styled.item} titulo={proyecto.titulo} key={proyecto.titulo} img={proyecto.img} description={proyecto.description}/>)}
                   
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div>
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div>
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div>
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div>
-                  
-                  <div className={styled.item}>
-                  <Project1 />
-                  </div><div className={styled.item}>
-                  <Project1 />
-                  </div>
                   
                 </div>
               </motion.div>

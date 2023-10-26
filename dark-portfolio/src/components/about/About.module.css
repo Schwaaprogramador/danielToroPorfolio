@@ -19,12 +19,12 @@
     height: 20rem;
     width: 20rem;
     border-radius: 100%;
-    background-color: rgb(255, 251, 16); 
+    background-color: #0c5149;
 }
 
 /*---------------------------*/
 .icon {
-    color: rgb(255, 251, 16);
+    color: #07f9a2;
     font-size: 3rem;
 }
 
@@ -49,9 +49,10 @@
 .toro {
     font-family: 'Archivo Black', sans-serif;
     font-size: 5rem;
-    color: rgb(255, 251, 16);
+    color: #07f9a2;
 }
 
 .p {
-    font-family: 'Bungee Hairline', cursive; 
+    font-family: 'Bungee Hairline', cursive;
+    color: #07f9a2;
 }

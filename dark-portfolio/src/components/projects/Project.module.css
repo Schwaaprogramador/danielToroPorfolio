@@ -1,0 +1,53 @@
+.item {
+    border-radius: 2rem;
+    width: 0;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.info {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: black;
+}
+
+.info:hover{
+    background-color: rgb(107, 107, 107);
+}
+
+.text {
+    color: black;
+}
+
+.description {
+    color: black;
+
+}
+
+.deploy {
+    color: black;
+}
+
+.item:hover {
+    cursor: crosshair;
+    width: 45vw;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.carrucel {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    border-radius: 1rem;
+}
