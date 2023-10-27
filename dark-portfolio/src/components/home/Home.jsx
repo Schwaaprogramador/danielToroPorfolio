@@ -22,8 +22,16 @@ const Home = () => {
           </div>
 
            <div className={styled.section1}>
-              <Projects/>
+            <div>
+              <h3 className={styled.titulo}>Proyectos</h3>
+            <Projects/>
+
+            </div>
+
+      
+              
               <div className={styled.section1_inside}>
+              <h3 className={styled.titulo}>About me</h3>
                 <Description/>
                 <Skills/>
               </div>

@@ -40,3 +40,9 @@
     height: 50vh;
     display: flex;
 }
+
+.titulo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    color: #07f9a2;
+}
