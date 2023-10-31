@@ -30,6 +30,7 @@ const Project = (props) => {
               <div className={styled.deploy}>
                 {props.deploy}
               </div>
+              
           </div>
 
       </div>
